@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="blackBg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.advancejavaassignment2.AnimalDetailsController">
+   <children>
+      <BorderPane layoutX="-13.0" layoutY="-25.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox prefHeight="399.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="86.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label fx:id="animalName" alignment="CENTER" prefHeight="51.0" prefWidth="294.0" styleClass="ornageLbl" text=" ">
+                           <font>
+                              <Font name="System Bold Italic" size="35.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="Family :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="familyTxt" prefHeight="17.0" prefWidth="327.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="Top speed :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="topSpeed" prefHeight="17.0" prefWidth="304.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="Color :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="colorTxt" prefHeight="17.0" prefWidth="312.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="Prey :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="preyText" prefHeight="17.0" prefWidth="329.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="Name of young :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Label>
+                        <Label fx:id="youngNameTxt" prefHeight="17.0" prefWidth="345.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="Group behavior :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="behaviourTxt" prefHeight="17.0" prefWidth="324.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="Biggest threat :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Label>
+                        <Label fx:id="biggestThreatTxt" prefHeight="17.0" prefWidth="317.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox prefHeight="28.0" prefWidth="580.0" spacing="30.0">
+                     <children>
+                        <Label prefHeight="16.0" prefWidth="105.0" styleClass="ornageLbl" text="No. of species :">
+                           <font>
+                              <Font name="System Italic" size="14.0" />
+                           </font></Label>
+                        <Label fx:id="speicesNameTxt" prefHeight="17.0" prefWidth="320.0" text=" " />
+                     </children>
+                     <padding>
+                        <Insets left="20.0" />
+                     </padding>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#closeAction" prefHeight="25.0" prefWidth="120.0" text="Close" />
+                     </children>
+                  </HBox>
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" />
+               </padding>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
